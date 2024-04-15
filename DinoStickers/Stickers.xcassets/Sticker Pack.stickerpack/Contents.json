@@ -1,0 +1,74 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "allosaurus.sticker"
+    },
+    {
+      "filename" : "compsognathus.sticker"
+    },
+    {
+      "filename" : "velociraptor.sticker"
+    },
+    {
+      "filename" : "tyrannosaurusrex.sticker"
+    },
+    {
+      "filename" : "pachycephalosaurus.sticker"
+    },
+    {
+      "filename" : "quetzalcoatlus.sticker"
+    },
+    {
+      "filename" : "therizinosaurus.sticker"
+    },
+    {
+      "filename" : "atrociraptor.sticker"
+    },
+    {
+      "filename" : "spinosaurus.sticker"
+    },
+    {
+      "filename" : "indominusrex.sticker"
+    },
+    {
+      "filename" : "giganotosaurus.sticker"
+    },
+    {
+      "filename" : "mosasaurus.sticker"
+    },
+    {
+      "filename" : "indoraptor.sticker"
+    },
+    {
+      "filename" : "baryonyx.sticker"
+    },
+    {
+      "filename" : "stegosaurus.sticker"
+    },
+    {
+      "filename" : "brachiosaurus.sticker"
+    },
+    {
+      "filename" : "dimorphodon.sticker"
+    },
+    {
+      "filename" : "carnotaurus.sticker"
+    },
+    {
+      "filename" : "pteranodon.sticker"
+    },
+    {
+      "filename" : "pyroraptor.sticker"
+    },
+    {
+      "filename" : "dilophosaurus.sticker"
+    }
+  ]
+}

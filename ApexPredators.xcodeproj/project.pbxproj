@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D19951402BCD6463005B2F02 /* DinosaurDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199513F2BCD6463005B2F02 /* DinosaurDetailView.swift */; };
+		D19951422BCD82AB005B2F02 /* DinosaurMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19951412BCD82AB005B2F02 /* DinosaurMapView.swift */; };
+		D19951482BCD9551005B2F02 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19951472BCD9551005B2F02 /* Stickers.xcassets */; };
+		D199514C2BCD9551005B2F02 /* DinoStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D19951452BCD954F005B2F02 /* DinoStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D1C280922BC81B7C009C7DD4 /* ApexPredatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C280912BC81B7C009C7DD4 /* ApexPredatorsApp.swift */; };
 		D1C280942BC81B7C009C7DD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C280932BC81B7C009C7DD4 /* ContentView.swift */; };
 		D1C280962BC81B7E009C7DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C280952BC81B7E009C7DD4 /* Assets.xcassets */; };
 		D1C280992BC81B7E009C7DD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C280982BC81B7E009C7DD4 /* Preview Assets.xcassets */; };
+		D1C280A02BC81BF3009C7DD4 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = D1C2809F2BC81BF3009C7DD4 /* jpapexpredators.json */; };
+		D1C280A32BC81D50009C7DD4 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C280A22BC81D50009C7DD4 /* ApexPredator.swift */; };
+		D1C280A52BC81EDE009C7DD4 /* MovieScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C280A42BC81EDE009C7DD4 /* MovieScene.swift */; };
+		D1C280A72BC82007009C7DD4 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C280A62BC82007009C7DD4 /* Predators.swift */; };
+		D1C280AA2BC8287E009C7DD4 /* DinosaurRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C280A92BC8287E009C7DD4 /* DinosaurRowView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D199514A2BCD9551005B2F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C280862BC81B7C009C7DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19951442BCD954F005B2F02;
+			remoteInfo = DinoStickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D199514D2BCD9551005B2F02 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D199514C2BCD9551005B2F02 /* DinoStickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D199513F2BCD6463005B2F02 /* DinosaurDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurDetailView.swift; sourceTree = "<group>"; };
+		D19951412BCD82AB005B2F02 /* DinosaurMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurMapView.swift; sourceTree = "<group>"; };
+		D19951452BCD954F005B2F02 /* DinoStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DinoStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19951472BCD9551005B2F02 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		D19951492BCD9551005B2F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C2808E2BC81B7C009C7DD4 /* ApexPredators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApexPredators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C280912BC81B7C009C7DD4 /* ApexPredatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredatorsApp.swift; sourceTree = "<group>"; };
 		D1C280932BC81B7C009C7DD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1C280952BC81B7E009C7DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C280982BC81B7E009C7DD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1C2809F2BC81BF3009C7DD4 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		D1C280A22BC81D50009C7DD4 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		D1C280A42BC81EDE009C7DD4 /* MovieScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScene.swift; sourceTree = "<group>"; };
+		D1C280A62BC82007009C7DD4 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+		D1C280A92BC8287E009C7DD4 /* DinosaurRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D19951462BCD954F005B2F02 /* DinoStickers */ = {
+			isa = PBXGroup;
+			children = (
+				D19951472BCD9551005B2F02 /* Stickers.xcassets */,
+				D19951492BCD9551005B2F02 /* Info.plist */,
+			);
+			path = DinoStickers;
+			sourceTree = "<group>";
+		};
 		D1C280852BC81B7C009C7DD4 = {
 			isa = PBXGroup;
 			children = (
 				D1C280902BC81B7C009C7DD4 /* ApexPredators */,
+				D19951462BCD954F005B2F02 /* DinoStickers */,
 				D1C2808F2BC81B7C009C7DD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D1C2808E2BC81B7C009C7DD4 /* ApexPredators.app */,
+				D19951452BCD954F005B2F02 /* DinoStickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +105,9 @@
 		D1C280902BC81B7C009C7DD4 /* ApexPredators */ = {
 			isa = PBXGroup;
 			children = (
+				D1C280A82BC827FD009C7DD4 /* Views */,
+				D1C280A12BC81D31009C7DD4 /* Model */,
+				D1C2809F2BC81BF3009C7DD4 /* jpapexpredators.json */,
 				D1C280912BC81B7C009C7DD4 /* ApexPredatorsApp.swift */,
 				D1C280932BC81B7C009C7DD4 /* ContentView.swift */,
 				D1C280952BC81B7E009C7DD4 /* Assets.xcassets */,
@@ -67,9 +124,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D1C280A12BC81D31009C7DD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1C280A22BC81D50009C7DD4 /* ApexPredator.swift */,
+				D1C280A42BC81EDE009C7DD4 /* MovieScene.swift */,
+				D1C280A62BC82007009C7DD4 /* Predators.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1C280A82BC827FD009C7DD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1C280A92BC8287E009C7DD4 /* DinosaurRowView.swift */,
+				D199513F2BCD6463005B2F02 /* DinosaurDetailView.swift */,
+				D19951412BCD82AB005B2F02 /* DinosaurMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D19951442BCD954F005B2F02 /* DinoStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19951502BCD9551005B2F02 /* Build configuration list for PBXNativeTarget "DinoStickers" */;
+			buildPhases = (
+				D19951432BCD954F005B2F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoStickers;
+			productName = DinoStickers;
+			productReference = D19951452BCD954F005B2F02 /* DinoStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		D1C2808D2BC81B7C009C7DD4 /* ApexPredators */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1C2809C2BC81B7E009C7DD4 /* Build configuration list for PBXNativeTarget "ApexPredators" */;
@@ -77,10 +169,12 @@
 				D1C2808A2BC81B7C009C7DD4 /* Sources */,
 				D1C2808B2BC81B7C009C7DD4 /* Frameworks */,
 				D1C2808C2BC81B7C009C7DD4 /* Resources */,
+				D199514D2BCD9551005B2F02 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D199514B2BCD9551005B2F02 /* PBXTargetDependency */,
 			);
 			name = ApexPredators;
 			productName = ApexPredators;
@@ -97,6 +191,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					D19951442BCD954F005B2F02 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					D1C2808D2BC81B7C009C7DD4 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -116,17 +213,27 @@
 			projectRoot = "";
 			targets = (
 				D1C2808D2BC81B7C009C7DD4 /* ApexPredators */,
+				D19951442BCD954F005B2F02 /* DinoStickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D19951432BCD954F005B2F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19951482BCD9551005B2F02 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1C2808C2BC81B7C009C7DD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D1C280992BC81B7E009C7DD4 /* Preview Assets.xcassets in Resources */,
 				D1C280962BC81B7E009C7DD4 /* Assets.xcassets in Resources */,
+				D1C280A02BC81BF3009C7DD4 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,14 +244,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C280AA2BC8287E009C7DD4 /* DinosaurRowView.swift in Sources */,
+				D1C280A32BC81D50009C7DD4 /* ApexPredator.swift in Sources */,
+				D1C280A72BC82007009C7DD4 /* Predators.swift in Sources */,
+				D1C280A52BC81EDE009C7DD4 /* MovieScene.swift in Sources */,
+				D19951402BCD6463005B2F02 /* DinosaurDetailView.swift in Sources */,
 				D1C280942BC81B7C009C7DD4 /* ContentView.swift in Sources */,
+				D19951422BCD82AB005B2F02 /* DinosaurMapView.swift in Sources */,
 				D1C280922BC81B7C009C7DD4 /* ApexPredatorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D199514B2BCD9551005B2F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19951442BCD954F005B2F02 /* DinoStickers */;
+			targetProxy = D199514A2BCD9551005B2F02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D199514E2BCD9551005B2F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DinoStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bogdantudosie.ApexPredators.DinoStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D199514F2BCD9551005B2F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DinoStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bogdantudosie.ApexPredators.DinoStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D1C2809A2BC81B7E009C7DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +484,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D19951502BCD9551005B2F02 /* Build configuration list for PBXNativeTarget "DinoStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D199514E2BCD9551005B2F02 /* Debug */,
+				D199514F2BCD9551005B2F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D1C280892BC81B7C009C7DD4 /* Build configuration list for PBXProject "ApexPredators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
